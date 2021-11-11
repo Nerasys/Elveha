@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2718555689350734251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2718555689350734253}
+  - component: {fileID: 2718555689350734252}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2718555689350734253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718555689350734251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2718555689350734252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2718555689350734251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e454360bfd13f42469340c523963ae2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BoucleRoue
+    clip: {fileID: 8300000, guid: 8613f5fd355027a48b577e9c545d445b, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: c505b3fe4e469dd4fb39b1790a66194d, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BoucleThrust
+    clip: {fileID: 8300000, guid: 215e753731597854fade8f8d2e5622e6, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Confirm
+    clip: {fileID: 8300000, guid: 0df3ec18e43e8d54680b13f57d30e7e9, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: TouxF1
+    clip: {fileID: 8300000, guid: 7e5ca0ce6eac6364f8799f65780716af, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: TouxF2
+    clip: {fileID: 8300000, guid: 531f642614da1634b854e98e5fa1334e, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: TouxH1
+    clip: {fileID: 8300000, guid: a6cce454853d70948ba81929e455586b, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: TouxH2
+    clip: {fileID: 8300000, guid: cdebf8036f52ed1458f7b9f14e2e38cf, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Hover
+    clip: {fileID: 8300000, guid: 7a82957d660636947895850d804c287e, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelBegin
+    clip: {fileID: 8300000, guid: 11afb4340d0b0cd4d93491e3b6f278ce, type: 3}
+    volume: 0.36
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: NewGame
+    clip: {fileID: 8300000, guid: 444c4fc4067e6854da1ce95c2a45c361, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Drift
+    clip: {fileID: 8300000, guid: 290093e8834c68d4081d3aa634b1ace3, type: 3}
+    volume: 0.995
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Boost
+    clip: {fileID: 8300000, guid: 48b72632ace37124787b927c0c5bef77, type: 3}
+    volume: 0.995
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
